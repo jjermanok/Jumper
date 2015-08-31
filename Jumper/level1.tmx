@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="212" height="20" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="tileSet-hd" tilewidth="16" tileheight="16">
+  <image source="tileSet.png" trans="fe80fe" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="257" name="Retro" tilewidth="640" tileheight="384">
+  <tile id="0">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer1@4x.png"/>
+  </tile>
+  <tile id="1">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer2@4x.png"/>
+  </tile>
+  <tile id="2">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer3@4x.png"/>
+  </tile>
+  <tile id="3">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer4@4x.png"/>
+  </tile>
+  <tile id="4">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer5@4x.png"/>
+  </tile>
+  <tile id="5">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer6@4x.png"/>
+  </tile>
+  <tile id="6">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer7@4x.png"/>
+  </tile>
+  <tile id="7">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer8@4x.png"/>
+  </tile>
+  <tile id="8">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer9@4x.png"/>
+  </tile>
+  <tile id="9">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer10@4x.png"/>
+  </tile>
+  <tile id="10">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer11@4x.png"/>
+  </tile>
+  <tile id="11">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer12@4x.png"/>
+  </tile>
+  <tile id="12">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer13@4x.png"/>
+  </tile>
+  <tile id="13">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer14@4x.png"/>
+  </tile>
+  <tile id="14">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer15@4x.png"/>
+  </tile>
+  <tile id="15">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer16@4x.png"/>
+  </tile>
+  <tile id="16">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer17@4x.png"/>
+  </tile>
+  <tile id="17">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer18@4x.png"/>
+  </tile>
+  <tile id="18">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer19@4x.png"/>
+  </tile>
+  <tile id="19">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer20@4x.png"/>
+  </tile>
+  <tile id="20">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer21@4x.png"/>
+  </tile>
+  <tile id="21">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer22@4x.png"/>
+  </tile>
+  <tile id="22">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer23@4x.png"/>
+  </tile>
+  <tile id="23">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer24@4x.png"/>
+  </tile>
+  <tile id="24">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer25@4x.png"/>
+  </tile>
+  <tile id="25">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer26@4x.png"/>
+  </tile>
+  <tile id="26">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer27@4x.png"/>
+  </tile>
+  <tile id="27">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer28@4x.png"/>
+  </tile>
+  <tile id="28">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer29@4x.png"/>
+  </tile>
+  <tile id="29">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer30@4x.png"/>
+  </tile>
+  <tile id="30">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer31@4x.png"/>
+  </tile>
+  <tile id="31">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer32@4x.png"/>
+  </tile>
+  <tile id="32">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer33@4x.png"/>
+  </tile>
+  <tile id="33">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer34@4x.png"/>
+  </tile>
+  <tile id="34">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer35@4x.png"/>
+  </tile>
+  <tile id="35">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer36@4x.png"/>
+  </tile>
+  <tile id="36">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer37@4x.png"/>
+  </tile>
+  <tile id="37">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer38@4x.png"/>
+  </tile>
+  <tile id="38">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer39@4x.png"/>
+  </tile>
+  <tile id="39">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer40@4x.png"/>
+  </tile>
+  <tile id="40">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer41@4x.png"/>
+  </tile>
+  <tile id="41">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer42@4x.png"/>
+  </tile>
+  <tile id="42">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer43@4x.png"/>
+  </tile>
+  <tile id="43">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer44@4x.png"/>
+  </tile>
+  <tile id="44">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer45@4x.png"/>
+  </tile>
+  <tile id="45">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer46@4x.png"/>
+  </tile>
+  <tile id="46">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer47@4x.png"/>
+  </tile>
+  <tile id="47">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer48@4x.png"/>
+  </tile>
+  <tile id="48">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer49@4x.png"/>
+  </tile>
+  <tile id="49">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer50@4x.png"/>
+  </tile>
+  <tile id="50">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer51@4x.png"/>
+  </tile>
+  <tile id="51">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer52@4x.png"/>
+  </tile>
+  <tile id="52">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer53@4x.png"/>
+  </tile>
+  <tile id="53">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer54@4x.png"/>
+  </tile>
+  <tile id="54">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer55@4x.png"/>
+  </tile>
+  <tile id="55">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer56@4x.png"/>
+  </tile>
+  <tile id="56">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer57@4x.png"/>
+  </tile>
+  <tile id="57">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer58@4x.png"/>
+  </tile>
+  <tile id="58">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer59@4x.png"/>
+  </tile>
+  <tile id="59">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer60@4x.png"/>
+  </tile>
+  <tile id="60">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer61@4x.png"/>
+  </tile>
+  <tile id="61">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer62@4x.png"/>
+  </tile>
+  <tile id="62">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer63@4x.png"/>
+  </tile>
+  <tile id="63">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer64@4x.png"/>
+  </tile>
+  <tile id="64">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer65@4x.png"/>
+  </tile>
+  <tile id="65">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer66@4x.png"/>
+  </tile>
+  <tile id="66">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer67@4x.png"/>
+  </tile>
+  <tile id="67">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer68@4x.png"/>
+  </tile>
+  <tile id="68">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer69@4x.png"/>
+  </tile>
+  <tile id="69">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer70@4x.png"/>
+  </tile>
+  <tile id="70">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer71@4x.png"/>
+  </tile>
+  <tile id="71">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer72@4x.png"/>
+  </tile>
+  <tile id="72">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer73@4x.png"/>
+  </tile>
+  <tile id="73">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer74@4x.png"/>
+  </tile>
+  <tile id="74">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer75@4x.png"/>
+  </tile>
+  <tile id="75">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer76@4x.png"/>
+  </tile>
+  <tile id="76">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer77@4x.png"/>
+  </tile>
+  <tile id="77">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer78@4x.png"/>
+  </tile>
+  <tile id="78">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer79@4x.png"/>
+  </tile>
+  <tile id="79">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer80@4x.png"/>
+  </tile>
+  <tile id="80">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer81@4x.png"/>
+  </tile>
+  <tile id="81">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer82@4x.png"/>
+  </tile>
+  <tile id="82">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer83@4x.png"/>
+  </tile>
+  <tile id="83">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer84@4x.png"/>
+  </tile>
+  <tile id="84">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer85@4x.png"/>
+  </tile>
+  <tile id="85">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer86@4x.png"/>
+  </tile>
+  <tile id="86">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer87@4x.png"/>
+  </tile>
+  <tile id="87">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer88@4x.png"/>
+  </tile>
+  <tile id="88">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer89@4x.png"/>
+  </tile>
+  <tile id="89">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer90@4x.png"/>
+  </tile>
+  <tile id="90">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer91@4x.png"/>
+  </tile>
+  <tile id="91">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer92@4x.png"/>
+  </tile>
+  <tile id="92">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer93@4x.png"/>
+  </tile>
+  <tile id="93">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer94@4x.png"/>
+  </tile>
+  <tile id="94">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer95@4x.png"/>
+  </tile>
+  <tile id="95">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer96@4x.png"/>
+  </tile>
+  <tile id="96">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer97@4x.png"/>
+  </tile>
+  <tile id="97">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer98@4x.png"/>
+  </tile>
+  <tile id="98">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer99@4x.png"/>
+  </tile>
+  <tile id="99">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer100@4x.png"/>
+  </tile>
+  <tile id="100">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer101@4x.png"/>
+  </tile>
+  <tile id="101">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer102@4x.png"/>
+  </tile>
+  <tile id="102">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer103@4x.png"/>
+  </tile>
+  <tile id="103">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer104@4x.png"/>
+  </tile>
+  <tile id="104">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer105@4x.png"/>
+  </tile>
+  <tile id="105">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer106@4x.png"/>
+  </tile>
+  <tile id="106">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer107@4x.png"/>
+  </tile>
+  <tile id="107">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer108@4x.png"/>
+  </tile>
+  <tile id="108">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer109@4x.png"/>
+  </tile>
+  <tile id="109">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer110@4x.png"/>
+  </tile>
+  <tile id="110">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer111@4x.png"/>
+  </tile>
+  <tile id="111">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer112@4x.png"/>
+  </tile>
+  <tile id="112">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer113@4x.png"/>
+  </tile>
+  <tile id="113">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer114@4x.png"/>
+  </tile>
+  <tile id="114">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer115@4x.png"/>
+  </tile>
+  <tile id="115">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer116@4x.png"/>
+  </tile>
+  <tile id="116">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer117@4x.png"/>
+  </tile>
+  <tile id="117">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer118@4x.png"/>
+  </tile>
+  <tile id="118">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer119@4x.png"/>
+  </tile>
+  <tile id="119">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer120@4x.png"/>
+  </tile>
+  <tile id="120">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer121@4x.png"/>
+  </tile>
+  <tile id="121">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer122@4x.png"/>
+  </tile>
+  <tile id="122">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer123@4x.png"/>
+  </tile>
+  <tile id="123">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer124@4x.png"/>
+  </tile>
+  <tile id="124">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer125@4x.png"/>
+  </tile>
+  <tile id="125">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer126@4x.png"/>
+  </tile>
+  <tile id="126">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer127@4x.png"/>
+  </tile>
+  <tile id="127">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer128@4x.png"/>
+  </tile>
+  <tile id="128">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer129@4x.png"/>
+  </tile>
+  <tile id="129">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer130@4x.png"/>
+  </tile>
+  <tile id="130">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer131@4x.png"/>
+  </tile>
+  <tile id="131">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer132@4x.png"/>
+  </tile>
+  <tile id="132">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer133@4x.png"/>
+  </tile>
+  <tile id="133">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer134@4x.png"/>
+  </tile>
+  <tile id="134">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer135@4x.png"/>
+  </tile>
+  <tile id="135">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer136@4x.png"/>
+  </tile>
+  <tile id="136">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer137@4x.png"/>
+  </tile>
+  <tile id="137">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer138@4x.png"/>
+  </tile>
+  <tile id="138">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer139@4x.png"/>
+  </tile>
+  <tile id="139">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer140@4x.png"/>
+  </tile>
+  <tile id="140">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer141@4x.png"/>
+  </tile>
+  <tile id="141">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer142@4x.png"/>
+  </tile>
+  <tile id="142">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer143@4x.png"/>
+  </tile>
+  <tile id="143">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer144@4x.png"/>
+  </tile>
+  <tile id="144">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer145@4x.png"/>
+  </tile>
+  <tile id="145">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer146@4x.png"/>
+  </tile>
+  <tile id="146">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer147@4x.png"/>
+  </tile>
+  <tile id="147">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer148@4x.png"/>
+  </tile>
+  <tile id="148">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer149@4x.png"/>
+  </tile>
+  <tile id="149">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer150@4x.png"/>
+  </tile>
+  <tile id="150">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer151@4x.png"/>
+  </tile>
+  <tile id="151">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer152@4x.png"/>
+  </tile>
+  <tile id="152">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer153@4x.png"/>
+  </tile>
+  <tile id="153">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer154@4x.png"/>
+  </tile>
+  <tile id="154">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer155@4x.png"/>
+  </tile>
+  <tile id="155">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer156@4x.png"/>
+  </tile>
+  <tile id="156">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer157@4x.png"/>
+  </tile>
+  <tile id="157">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer158@4x.png"/>
+  </tile>
+  <tile id="158">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer159@4x.png"/>
+  </tile>
+  <tile id="159">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer160@4x.png"/>
+  </tile>
+  <tile id="160">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer161@4x.png"/>
+  </tile>
+  <tile id="161">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer162@4x.png"/>
+  </tile>
+  <tile id="162">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer163@4x.png"/>
+  </tile>
+  <tile id="163">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer164@4x.png"/>
+  </tile>
+  <tile id="164">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer165@4x.png"/>
+  </tile>
+  <tile id="165">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer166@4x.png"/>
+  </tile>
+  <tile id="166">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer167@4x.png"/>
+  </tile>
+  <tile id="167">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer168@4x.png"/>
+  </tile>
+  <tile id="168">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer169@4x.png"/>
+  </tile>
+  <tile id="169">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer170@4x.png"/>
+  </tile>
+  <tile id="170">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer171@4x.png"/>
+  </tile>
+  <tile id="171">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer172@4x.png"/>
+  </tile>
+  <tile id="172">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer173@4x.png"/>
+  </tile>
+  <tile id="173">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer174@4x.png"/>
+  </tile>
+  <tile id="174">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer175@4x.png"/>
+  </tile>
+  <tile id="175">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer176@4x.png"/>
+  </tile>
+  <tile id="176">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer177@4x.png"/>
+  </tile>
+  <tile id="177">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer178@4x.png"/>
+  </tile>
+  <tile id="178">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer179@4x.png"/>
+  </tile>
+  <tile id="179">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer180@4x.png"/>
+  </tile>
+  <tile id="180">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer181@4x.png"/>
+  </tile>
+  <tile id="181">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer182@4x.png"/>
+  </tile>
+  <tile id="182">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer183@4x.png"/>
+  </tile>
+  <tile id="183">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer184@4x.png"/>
+  </tile>
+  <tile id="184">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer185@4x.png"/>
+  </tile>
+  <tile id="185">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer186@4x.png"/>
+  </tile>
+  <tile id="186">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer187@4x.png"/>
+  </tile>
+  <tile id="187">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer188@4x.png"/>
+  </tile>
+  <tile id="188">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer189@4x.png"/>
+  </tile>
+  <tile id="189">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer190@4x.png"/>
+  </tile>
+  <tile id="190">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer191@4x.png"/>
+  </tile>
+  <tile id="191">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer192@4x.png"/>
+  </tile>
+  <tile id="192">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer193@4x.png"/>
+  </tile>
+  <tile id="193">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer194@4x.png"/>
+  </tile>
+  <tile id="194">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer195@4x.png"/>
+  </tile>
+  <tile id="195">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer196@4x.png"/>
+  </tile>
+  <tile id="196">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer197@4x.png"/>
+  </tile>
+  <tile id="197">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer198@4x.png"/>
+  </tile>
+  <tile id="198">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer199@4x.png"/>
+  </tile>
+  <tile id="199">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer200@4x.png"/>
+  </tile>
+  <tile id="200">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer201@4x.png"/>
+  </tile>
+  <tile id="201">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer202@4x.png"/>
+  </tile>
+  <tile id="202">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer203@4x.png"/>
+  </tile>
+  <tile id="203">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer204@4x.png"/>
+  </tile>
+  <tile id="204">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer205@4x.png"/>
+  </tile>
+  <tile id="205">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer206@4x.png"/>
+  </tile>
+  <tile id="206">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer207@4x.png"/>
+  </tile>
+  <tile id="207">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer208@4x.png"/>
+  </tile>
+  <tile id="208">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer209@4x.png"/>
+  </tile>
+  <tile id="209">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer210@4x.png"/>
+  </tile>
+  <tile id="210">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer211@4x.png"/>
+  </tile>
+  <tile id="211">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer212@4x.png"/>
+  </tile>
+  <tile id="212">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer213@4x.png"/>
+  </tile>
+  <tile id="213">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer214@4x.png"/>
+  </tile>
+  <tile id="214">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer215@4x.png"/>
+  </tile>
+  <tile id="215">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer216@4x.png"/>
+  </tile>
+  <tile id="216">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer217@4x.png"/>
+  </tile>
+  <tile id="217">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer218@4x.png"/>
+  </tile>
+  <tile id="218">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer219@4x.png"/>
+  </tile>
+  <tile id="219">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer220@4x.png"/>
+  </tile>
+  <tile id="220">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer221@4x.png"/>
+  </tile>
+  <tile id="221">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer222@4x.png"/>
+  </tile>
+  <tile id="222">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer223@4x.png"/>
+  </tile>
+  <tile id="223">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer224@4x.png"/>
+  </tile>
+  <tile id="224">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer225@4x.png"/>
+  </tile>
+  <tile id="225">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer226@4x.png"/>
+  </tile>
+  <tile id="226">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer227@4x.png"/>
+  </tile>
+  <tile id="227">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer228@4x.png"/>
+  </tile>
+  <tile id="228">
+   <image width="384" height="384" source="../../class-pixel-platformer/Generic-Pixel-Platformer229@4x.png"/>
+  </tile>
+  <tile id="229">
+   <image width="256" height="256" source="../../class-pixel-platformer/Generic-Pixel-Platformer230@4x.png"/>
+  </tile>
+  <tile id="230">
+   <image width="128" height="128" source="../../class-pixel-platformer/Generic-Pixel-Platformer231@4x.png"/>
+  </tile>
+  <tile id="231">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer232@4x.png"/>
+  </tile>
+  <tile id="232">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer233@4x.png"/>
+  </tile>
+  <tile id="233">
+   <image width="128" height="128" source="../../class-pixel-platformer/Generic-Pixel-Platformer234@4x.png"/>
+  </tile>
+  <tile id="234">
+   <image width="128" height="128" source="../../class-pixel-platformer/Generic-Pixel-Platformer235@4x.png"/>
+  </tile>
+  <tile id="235">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer236@4x.png"/>
+  </tile>
+  <tile id="236">
+   <image width="640" height="256" source="../../class-pixel-platformer/Generic-Pixel-Platformer237@4x.png"/>
+  </tile>
+  <tile id="237">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer238@4x.png"/>
+  </tile>
+  <tile id="238">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer239@4x.png"/>
+  </tile>
+  <tile id="239">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer240@4x.png"/>
+  </tile>
+  <tile id="240">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer241@4x.png"/>
+  </tile>
+  <tile id="241">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer242@4x.png"/>
+  </tile>
+  <tile id="242">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer243@4x.png"/>
+  </tile>
+  <tile id="243">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer244@4x.png"/>
+  </tile>
+  <tile id="244">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer245@4x.png"/>
+  </tile>
+  <tile id="245">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer246@4x.png"/>
+  </tile>
+  <tile id="246">
+   <image width="64" height="64" source="../../class-pixel-platformer/Generic-Pixel-Platformer247@4x.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="504" name="Platformer" tilewidth="16" tileheight="16">
+  <image source="../../../../../Users/jjermanok/Downloads/generic_platformer_tiles.png" width="1024" height="768"/>
+ </tileset>
+ <layer name="background" width="212" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt19dSFEEUgOE1oKiYQDGhmEWMqChBUcxZQcWIVUbMVQgiKlClYkQvMMcL0BcwPKD/XGjh1jA7sz0z3bt9/qrvjp09vbN0zyYSkiRJkiRJkiSF0XP04AVeWvTekr/kHgXrEz7jC75a9N6Sv+QeSQPrQz++4bvmWdItG9ZgQnLWqvcDP/ELvzXPkm7ZsAYTkrNWsiWbz2Bb1m7q88EQDMUwDEcORmAkcjFK32j/CvrZhXUGm3rPvLLl+cPU54OJyEcBJmEyCjEFUzEtwLWi2ht1fXam3jMp/aI+v+dgLuZhPhZgIRahBIsDXMuWvdErW563MrWov6NlWIXVWINyrMU6VKAygvfM5mRPsbtabMYWbMU2bMcO7MSuQV6Xh7EYF8OM2Vym/EaTc9dfdajHIRzGETTgKI7huMtrZqAIMzELxbFMGk6jMSbx/34wXuM8mfIbTc5df53BWZzDeVzARTThEi4n/X0plmAplmE5VmBlTPOqNj3hvh/M9vHaEziJU2jE6WhGdG2wfWBCgGvonN9JdQ1e88e1tlRraMZNtKAVt9CG22jHnaTrVaEa67EBNdiITT7nGbhmHansB1dwFddwHTcimtEtlX3gbzrnd1Jdg9f8ca0t1Rru4wEeohuP8BhP8BTPkq63G3uwF/uwHwdw0Mcsuu+nk8p+cBf30IFOdEUzomthPBfonN9JdQ1e88e1tlRr6MUrvMYbvMU7vMcHfEy6nsr/k+776ZSp86s+Fzjp/vxV12DC+RTGfZD0p7IPmJLqGkw4n8K+D38A4ca3xw==
+  </data>
+ </layer>
+ <layer name="walls" width="212" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt1+ENgyAQhmE2bTdoN4AJ7Mr1hySEchwIisX3SS61USgl9yVoDAAAAAAAAAAAAAAAAPZwoxdwko9S0rOu4Tdrx0rr8ffcVqn7s7FbAWhjDXkCerCGPJ3BjV4ADhdn6cp5ctF3fx4PP0d7rPXsOF+P/+aUuXPPS9fxPKWkdyvPCteauHf39HH4vrlnv1NZunKejqJloCYjr7Xejeu5q1QmSvox1btn97KUpZnyVJoDLQM1GVm2Qp1cJnI9KfWuNrb1HBGOz2VppjyV5kDLQE1GyFO9kkyk+jLXu9rY1nOEH69l6cg8LdRP9dgb9rjvflL/W16POVrnmaHutA9faJk07A==
+  </data>
+ </layer>
+ <layer name="hazards" width="212" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt2TkKADAIBED/X+XJadJHyCVhBgQbFWw3AgAAAAAAAAD+1kYBAAAAAABwx2o2k5m/kQHN9p+43xL9rv0Vvcj2qv8EALI6v9wIcQ==
+  </data>
+ </layer>
+</map>

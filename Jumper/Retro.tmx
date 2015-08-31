@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="250" height="100" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="generic_platformer_tiles" tilewidth="32" tileheight="32">
+  <image source="../../../../../Users/jjermanok/Downloads/generic_platformer_tiles.png" width="1024" height="768"/>
+ </tileset>
+ <layer name="hazards" width="250" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztzzEKwkAURdE/XZbuRhLFxiwxU1gFQYLgK/65cKrhw7ylqhYAAAAAAOAnqdK7oZNU6d3QSar0bugkVXo3dJIqvRs6SZXeDZ2kSu+GTs6to2qbntPrZH+/3afH+HB8ofRu4Lrb+C79RwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAfzoAtWsR2A==
+  </data>
+ </layer>
+ <layer name="walls" width="250" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1llOFUEUBuBuBMILQYYNAALyAGELoiAGYtyCikTf3AIzLMORdYAD61AIboPf0De3SRjDA5fwdfLlVHWdSuo8nFR1FUXRBQAAAAAA3Mhu7MWP+Bm/Yqps6sn8YfRGX/THQAucG7i6P/E3DuIwvsWrsqm7yusummPgbinTy23xINqjIz7WTFR5E0VzDNwtg+nloRiORzESo7V3e+Meb9hugTMD1/MkvTwdT+NZzMRs7d3euMf/O4p/tb2T5Un8HjstUAtwttfp1TfxNhbjXSzV3u1jyXkc49FZnt77spr/jv0WqAU423J6dSVWYy3WYyO2K7PJeR7zsRCb+bdVrc1l/qK4OJ63dtt1w33yKf36Ob7E17jO9z4+XBLPW7vtugEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAG7qGHRsNok=
+  </data>
+ </layer>
+</map>
